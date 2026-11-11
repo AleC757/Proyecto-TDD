@@ -1,0 +1,7 @@
+#BlueJ class context
+#Tue Nov 10 18:47:54 BOT 2026
+comment0.target=TemaTest
+comment1.target=void testTemaRecienCreadoNoTieneLecciones()
+comment2.target=void testAgregarLeccionLaIncluyeEnLaLista()
+comment3.target=void testAgregarLeccionNullLanzaExcepcion()
+numComments=4
