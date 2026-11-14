@@ -1,0 +1,11 @@
+#BlueJ class context
+#Sat Nov 14 18:23:06 BOT 2026
+comment0.target=Ejercicio
+comment1.params=enunciado respuesta dificultad
+comment1.target=Ejercicio(java.lang.String, java.lang.String, Dificultad)
+comment2.target=java.lang.String getEnunciado()
+comment3.target=java.lang.String getRespuesta()
+comment4.target=Dificultad getDificultad()
+comment5.params=texto nombreCampo
+comment5.target=void validarTextoNoVacio(java.lang.String, java.lang.String)
+numComments=6
