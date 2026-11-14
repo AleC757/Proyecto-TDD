@@ -1,0 +1,8 @@
+#BlueJ class context
+#Wed Nov 11 18:17:30 BOT 2026
+comment0.target=CatalogoTemaTest
+comment1.target=void testAgregarTemaLoIncluyeEnElCatalogo()
+comment2.target=void testSiSeBuscaUnTemaConNombreExistenteSeDevuelveElMismo()
+comment3.target=void testSiSeBuscaUnTemaConNombreInexistenteDevuelveNulo()
+comment4.target=void testAgregarTemasConElMismoNombreAlCatalogoEvitaDuplicados()
+numComments=5

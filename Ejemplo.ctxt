@@ -1,0 +1,9 @@
+#BlueJ class context
+#Wed Nov 11 18:08:26 BOT 2026
+comment0.target=Ejemplo
+comment1.params=nombre
+comment1.target=Ejemplo(java.lang.String)
+comment2.params=paso
+comment2.target=void agregarPaso(java.lang.String)
+comment3.target=java.util.ArrayList getPasos()
+numComments=4

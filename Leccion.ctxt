@@ -1,10 +1,13 @@
 #BlueJ class context
-#Sun Nov 08 18:23:46 BOT 2026
+#Wed Nov 11 18:13:19 BOT 2026
 comment0.target=Leccion
 comment1.params=titulo contenido
 comment1.target=Leccion(java.lang.String, java.lang.String)
 comment2.target=java.lang.String getTitulo()
 comment3.target=java.lang.String getContenido()
-comment4.params=texto nombreCampo
-comment4.target=void validarTextoNoVacio(java.lang.String, java.lang.String)
-numComments=5
+comment4.target=java.util.ArrayList getEjemplos()
+comment5.params=ejemplo
+comment5.target=void agregarEjemplo(Ejemplo)
+comment6.params=texto nombreCampo
+comment6.target=void validarTextoNoVacio(java.lang.String, java.lang.String)
+numComments=7

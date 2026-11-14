@@ -1,0 +1,8 @@
+#BlueJ class context
+#Wed Nov 11 18:17:24 BOT 2026
+comment0.target=EjemploTest
+comment1.target=void testLosPasosSeGuardanEnElOrdenEnElQueSeAgregan()
+comment2.target=void testSeMuestraUnaExcepcionCuandoElEjemploNoTienePasos()
+comment3.target=void testSeMuestraUnaExcepcionAlAgregarUnPasoVacio()
+comment4.target=void testAgregarUnEjemploAUnaLeccionLoHaceParteDeLosEjemplosDeLaLeccion()
+numComments=5

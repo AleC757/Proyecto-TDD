@@ -1,0 +1,12 @@
+#BlueJ class context
+#Wed Nov 11 18:17:30 BOT 2026
+comment0.target=CatalogoTemas
+comment1.target=CatalogoTemas()
+comment2.target=java.util.ArrayList getTemas()
+comment3.params=nombre
+comment3.target=Tema buscarTema(java.lang.String)
+comment4.params=indice nombre
+comment4.target=Tema buscarTema(int, java.lang.String)
+comment5.params=tema
+comment5.target=void agregarTema(Tema)
+numComments=6
