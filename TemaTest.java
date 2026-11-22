@@ -3,38 +3,43 @@ import static org.junit.jupiter.api.Assertions.*;
 import org.junit.jupiter.api.BeforeEach;*/
 import org.junit.jupiter.api.Test;
 
-public class TemaTest
-{
+public class TemaTest {
     @Test
-    public void testTemaRecienCreadoNoTieneLecciones(){
+    public void testTemaRecienCreadoNoTieneLecciones() {
         Tema tema = new Tema("Grafos");
         assertAll(
-            () -> assertEquals("Grafos", tema.getNombre()),
-            () -> assertTrue(tema.getLecciones().isEmpty())
-        );
+                () -> assertEquals("Grafos", tema.getNombre()),
+                () -> assertTrue(tema.getLecciones().isEmpty()));
     }
-    
+
     @Test
-    public void testAgregarLeccionLaIncluyeEnLaLista(){
+    public void testAgregarLeccionLaIncluyeEnLaLista() {
         Tema tema = new Tema("Grafos");
-        Leccion leccion = new Leccion("BFS","BFS significa Breadth-First Search");
+        Leccion leccion = new Leccion("BFS", "BFS significa Breadth-First Search");
         tema.agregarLeccion(leccion);
         assertAll(
-            () -> assertEquals(1, tema.getLecciones().size()),
-            () -> assertTrue(tema.getLecciones().contains(leccion))
-        );
+                () -> assertEquals(1, tema.getLecciones().size()),
+                () -> assertTrue(tema.getLecciones().contains(leccion)));
     }
-    
+
     @Test
-    public void testAgregarLeccionNullLanzaExcepcion(){
+    public void testAgregarLeccionNullLanzaExcepcion() {
         Tema tema = new Tema("Grafos");
         assertAll(
-            () -> assertThrows(IllegalArgumentException.class, () ->{
-                tema.agregarLeccion(null);
-            }),
-            () -> assertTrue(tema.getLecciones().isEmpty())
-            );
+                () -> assertThrows(IllegalArgumentException.class, () -> {
+                    tema.agregarLeccion(null);
+                }),
+                () -> assertTrue(tema.getLecciones().isEmpty()));
     }
-    
+
+    @Test
+    public void testAgregarEjercicioLoIncluyeEnLaLista() {
+        Tema tema = new Tema("Busqueda Binaria");
+        Ejercicio ejercicio = new Ejercicio("Contenido valido", "Contenido valido", Dificultad.DIFICIL);
+        tema.agregarEjercicio(ejercicio);
+        assertAll(
+                () -> assertEquals(1, tema.getEjercicios().size()),
+                () -> assertTrue(tema.getEjercicios().contains(ejercicio)));
+    }
 
 }

@@ -1,5 +1,5 @@
 #BlueJ class context
-#Sat Nov 14 18:23:54 BOT 2026
+#Thu Nov 19 10:15:58 BOT 2026
 comment0.target=EjercicioTest
 comment1.target=void testCrearEjercicioGuardaEnunciadoRespuestaYDificultad()
 comment2.target=void testCrearEjercicioConEnunciadoVacioLanzaExcepcion()

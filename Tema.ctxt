@@ -1,5 +1,5 @@
 #BlueJ class context
-#Wed Nov 11 18:17:26 BOT 2026
+#Thu Nov 19 10:15:40 BOT 2026
 comment0.target=Tema
 comment1.params=nombre
 comment1.target=Tema(java.lang.String)
@@ -7,4 +7,7 @@ comment2.target=java.lang.String getNombre()
 comment3.target=java.util.ArrayList getLecciones()
 comment4.params=leccion
 comment4.target=void agregarLeccion(Leccion)
-numComments=5
+comment5.params=ejercicio
+comment5.target=void agregarEjercicio(Ejercicio)
+comment6.target=java.util.ArrayList getEjercicios()
+numComments=7

@@ -1,5 +1,5 @@
 #BlueJ class context
-#Wed Nov 11 18:13:19 BOT 2026
+#Thu Nov 19 09:54:51 BOT 2026
 comment0.target=Leccion
 comment1.params=titulo contenido
 comment1.target=Leccion(java.lang.String, java.lang.String)
