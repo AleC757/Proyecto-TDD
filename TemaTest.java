@@ -1,4 +1,4 @@
-import static org.junit.jupiter.api.Assertions.*;
+    import static org.junit.jupiter.api.Assertions.*;
 /*import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;*/
 import org.junit.jupiter.api.Test;
@@ -10,6 +10,22 @@ public class TemaTest {
         assertAll(
                 () -> assertEquals("Grafos", tema.getNombre()),
                 () -> assertTrue(tema.getLecciones().isEmpty()));
+    }
+
+    @Test
+    public void testNombreVacioLanzaExcepcion() {
+        assertThrows(IllegalArgumentException.class, () -> new Tema(""));
+    }
+
+    @Test
+    public void testNombreNullLanzaExcepcion() {
+        assertThrows(IllegalArgumentException.class, () -> new Tema(null));
+    }
+
+    @Test
+    public void testNombreSeGuardaSinEspaciosEnLosBordes() {
+        Tema tema = new Tema(" Grafos ");
+        assertEquals("Grafos", tema.getNombre());
     }
 
     @Test

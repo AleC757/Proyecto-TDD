@@ -1,8 +1,11 @@
 #BlueJ class context
-#Thu Nov 19 10:16:03 BOT 2026
+#Mon Nov 23 10:01:35 BOT 2026
 comment0.target=TemaTest
 comment1.target=void testTemaRecienCreadoNoTieneLecciones()
-comment2.target=void testAgregarLeccionLaIncluyeEnLaLista()
-comment3.target=void testAgregarLeccionNullLanzaExcepcion()
-comment4.target=void testAgregarEjercicioLoIncluyeEnLaLista()
-numComments=5
+comment2.target=void testNombreVacioLanzaExcepcion()
+comment3.target=void testNombreNullLanzaExcepcion()
+comment4.target=void testNombreSeGuardaSinEspaciosEnLosBordes()
+comment5.target=void testAgregarLeccionLaIncluyeEnLaLista()
+comment6.target=void testAgregarLeccionNullLanzaExcepcion()
+comment7.target=void testAgregarEjercicioLoIncluyeEnLaLista()
+numComments=8

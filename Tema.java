@@ -6,7 +6,8 @@ public class Tema {
     private ArrayList<Ejercicio> ejercicios;
 
     public Tema(String nombre) {
-        this.nombre = nombre;
+        validarNombre(nombre);
+        this.nombre = nombre.trim();
         this.lecciones = new ArrayList<>();
         this.ejercicios = new ArrayList<>();
     }
@@ -17,6 +18,12 @@ public class Tema {
 
     public ArrayList<Leccion> getLecciones() {
         return lecciones;
+    }
+    
+    private void validarNombre(String nombre) {
+        if (nombre == null || "".equals(nombre)) {
+            throw new IllegalArgumentException("El nombre no puede estar vacio");
+        }
     }
 
     public void agregarLeccion(Leccion leccion) {
