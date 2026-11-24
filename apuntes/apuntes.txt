@@ -1,0 +1,33 @@
+	
+Mobck objects
+problema : Dependencia
+solucion: Aislar
+
+Necesito un objeto falso, necesito transformar un objeto verdadero en un objeto falso
+para que necesito un objeto falso?
+los objetos falsos son  muy parecidos a los verdaderos
+Mock Objects::Es un objeto entranado
+
+que es el estado de un objeto?
+Son los valores de sus atributos
+
+Solucion a la dependencia: aplicar ailsamiento atravez de mobck ups
+
+Solucion para el examen*va a poner un enunciado de cualquiera): hacer un diagrama de clases
+Estudiar dependencia y herencia y como aplicar en diagrama de clases
+
+SUT= Subjet Under Test
+ya entonces tenemos muchos modulos, colocamos un SUT, y los demas mocked 
+
+Reto Para MIercoles
+informe deuna hoja cosas interesantes nombre del equipo(los que trabajen);
+EasyMock
+Mockito
+MockEjb
+EasyMock usar cualquiera otros
+caps de pantalla,  hay que instalar para que funcione y dar un little ejemplo
+
+
+Examen: SOLO USAR CUANDO HAY DEPENDENCIA
+para el proyecto,Usar para un escenario puede ser uno dos o tres mock objects , tiene 
+que estar en nuestro unit test, no mock 
