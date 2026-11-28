@@ -1,0 +1,7 @@
+#BlueJ class context
+#Fri Nov 27 20:08:26 BOT 2026
+comment0.target=EstudianteTest
+comment1.target=void testCrearEstudianteConDatosValidos()
+comment2.target=void testNombreVacioLanzaExcepcion()
+comment3.target=void testFormatoDeCorreoInvalidoLanzaExcepcion()
+numComments=4

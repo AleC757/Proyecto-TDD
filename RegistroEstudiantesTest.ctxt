@@ -1,0 +1,5 @@
+#BlueJ class context
+#Fri Nov 27 20:29:03 BOT 2026
+comment0.target=RegistroEstudiantesTest
+comment1.target=void testNoPermiteRegistrarDosEstudiantesConMismoCorreo()
+numComments=2

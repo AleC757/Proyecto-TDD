@@ -1,0 +1,13 @@
+#BlueJ class context
+#Fri Nov 27 20:08:26 BOT 2026
+comment0.target=Estudiante
+comment1.params=nombre correo
+comment1.target=Estudiante(java.lang.String, java.lang.String)
+comment2.target=java.lang.String getNombre()
+comment3.target=java.lang.String getCorreo()
+comment4.target=int getLeccionesCompletadas()
+comment5.params=campo texto
+comment5.target=void validarTextNoVacio(java.lang.String, java.lang.String)
+comment6.params=correo
+comment6.target=void validarFormatoDeCorreo(java.lang.String)
+numComments=7
